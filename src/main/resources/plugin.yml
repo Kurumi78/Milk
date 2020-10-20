@@ -1,0 +1,14 @@
+name: Milk
+version: ${project.version}
+main: com.gmail.kurumitk78.milk.Milk
+prefix: Milk
+authors: [ Kurumi78 ]
+description: Milk now gives hunger!
+
+commands:
+  setmilk:
+
+permissions:
+  milk.setmilk:
+    default: op
+
