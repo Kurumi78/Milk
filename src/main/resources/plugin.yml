@@ -6,9 +6,12 @@ authors: [ Kurumi78 ]
 description: Milk now gives hunger!
 
 commands:
-  setmilk:
+  SetMilkFood:
+  SetMilkSaturation:
 
 permissions:
-  milk.setmilk:
+  milk.setmilkfood:
+    default: op
+  milk.setmilksaturation:
     default: op
 
