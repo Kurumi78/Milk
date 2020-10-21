@@ -11,10 +11,10 @@ public class SetFood implements CommandExecutor {
     public boolean onCommand(final CommandSender sender, final Command cmd, final String label, final String[] args) {
         if (sender.hasPermission("milk.setmilk")) {
 
-            if (args.length == 0) {
+            if (args.length == 0) { //Checks if a value is given to be set
                 sender.sendMessage(ChatColor.GRAY + "[MILK]" + ChatColor.DARK_GRAY + " Proper usage: \"/setmilk (value) \"");
             } else {
-                Milk.plugin.getConfig().set("Food-Amount", Integer.parseInt(args[0]));
+                Milk.plugin.getConfig().set("Food-Amount", Integer.parseInt(args[0]));   //Sets the value in config
                 Milk.plugin.saveConfig();
                 sender.sendMessage(ChatColor.GRAY + "[MILK]" + ChatColor.DARK_GRAY + " Value set!");
             }

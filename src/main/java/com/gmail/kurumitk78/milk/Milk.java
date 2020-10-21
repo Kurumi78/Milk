@@ -13,14 +13,15 @@ public final class Milk extends JavaPlugin {
     @Override
     public void onEnable(){
         plugin = this;
-        getServer().getPluginManager().registerEvents(new MILKLIstener(), this);
+        getServer().getPluginManager().registerEvents(new MILKLIStener(), this); // Registeres the Event that fires when food is consumed
 
         if (!(new File(this.getDataFolder(), "config.yml").exists())) { // Generates the config if missing,
             this.saveDefaultConfig();
         }
-        this.getCommand("SetMilkFood").setExecutor(new SetFood());
+        this.getCommand("SetMilkFood").setExecutor(new SetFood()); //Registeres the commands
         this.getCommand("SetMilkSaturation").setExecutor(new SetSaturation());
-        int pluginId = 9165; // <-- Replace with the id of your plugin!
+
+        int pluginId = 9165; //This is the info for bstats
         Metrics metrics = new Metrics(this, pluginId);
     }
 }
