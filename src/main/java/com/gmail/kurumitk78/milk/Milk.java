@@ -20,6 +20,7 @@ public final class Milk extends JavaPlugin {
         }
         this.getCommand("SetMilkFood").setExecutor(new SetFood());
         this.getCommand("SetMilkSaturation").setExecutor(new SetSaturation());
+        this.getLogger().info("Cracked by ur mom lol");
         int pluginId = 9165; // <-- Replace with the id of your plugin!
         Metrics metrics = new Metrics(this, pluginId);
     }
