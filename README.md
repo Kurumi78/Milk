@@ -9,3 +9,4 @@ Commands:
 
 Permissions:
 milk.setmilk // Allows user to run /setmilk (default to ops)
+kurumi is dumb
