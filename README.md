@@ -1,4 +1,4 @@
-#Milk now restores hunger and saturation!
+# Milk now restores hunger and saturation!
 
 The default hunger amount is 1
 The default saturation value is 5
