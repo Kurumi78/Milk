@@ -1,11 +1,14 @@
-# Milk
+#Milk now restores hunger and saturation!
 
-Milk now gives restores hunger (default is 1 hunger, can be changed)
+The default hunger amount is 1
+The default saturation value is 5
 
 Enjoy your Milk
 
 Commands:
-/setmilk (value) // Changes the amount of hunger milk restores
+/setmilkfood (value) // Changes the amount of hunger milk restores
+/setmilksaturation (value) // Changes the saturation value of milk
 
 Permissions:
-milk.setmilk // Allows user to run /setmilk (default to ops)
+milk.setmilkfood // Allows user to run /setmilkfood (default to ops)
+milk.setmilksaturation // Allows user to run /setmilksaturation (default to ops)
